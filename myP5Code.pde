@@ -15,7 +15,20 @@ draw = function(){
   }
 
   //🎯New Text Code Should Go Here 🡻
+  background(125,95,155);
+  textSize(50);
+  textFont(createFont("Papyrus"));
+  text("yabbadabbadoo", 130, 60);
   
+
+  textSize(30);
+  textFont(createFont("Papyrus"));
+  text("yabbadabbadoo", 200, 160);
+  
+  textSize(20);
+  textFont(createFont("Papyrus"));
+  text("yabbadabbadoo", 230, 260);
+
 };
 
 //🟡Mouse Pressed Procedue - Runs When Mouse is Pressed on Canvas
